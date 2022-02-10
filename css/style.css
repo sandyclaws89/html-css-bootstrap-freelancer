@@ -35,4 +35,11 @@
     text-align: center;
 }
 
+.star_box{
+    height: 70px;
+    background-color: blueviolet;
+}
 
+.side_star{
+    background-color: cadetblue;
+}
