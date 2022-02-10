@@ -1,0 +1,38 @@
+
+
+.left_nav{
+    background-color: blue;
+    height: 100%;
+}
+
+.right_nav{
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.nav_height{
+    height: 50px;
+    background-color: aqua;
+}
+
+.menu_btn{
+    margin-top: 15px;
+    background-color: black;
+    height: 25px;
+    color: white;
+}
+
+.box_img{
+    background-color: beige;
+    height: 200px;
+    text-align: center;
+}
+
+.start_boot{
+    background-color: lime;
+    height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
