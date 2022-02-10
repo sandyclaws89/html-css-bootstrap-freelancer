@@ -1,25 +1,32 @@
+.flex_row{
+    flex-direction: row;
+}
 
+.flex_col{
+    flex-direction: column;
+}
 
 .left_nav{
     background-color: blue;
-    height: 100%;
+    justify-content: center;
+
+    /* FIXME: NON FUNZIONA JUSTIFY CONTENT  */
+    
+    
 }
 
 .right_nav{
-    background-color: aquamarine;
     height: 100%;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    
+    /* FIXME: NON FUNZIONA JUSTIFY CONTENT  */
 }
 
 .nav_height{
     height: 50px;
     background-color: aqua;
-}
-
-.menu_btn{
-    margin-top: 15px;
-    background-color: black;
-    height: 25px;
-    color: white;
 }
 
 .box_img{
@@ -33,13 +40,36 @@
     height: 50px;
     text-transform: uppercase;
     text-align: center;
+    font-weight: 700;
 }
 
 .star_box{
     height: 70px;
     background-color: blueviolet;
+    text-align: center;
 }
 
 .side_star{
     background-color: cadetblue;
 }
+
+.text_box{
+    height: 70px;
+    background-color: crimson;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.portfolio{
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 100px;
+    text-align: center;
+}
+
+.img_1{
+
+
+}
+
