@@ -1,181 +1,31 @@
-.flex_row{
-    display: flex;
-    flex-direction: row;
+body{
+    font-family: sans-serif;
 }
 
-.flex_col{
-    display: flex;
-    flex-direction: column;
+:root {
+    --white: #ffffff;
+    --teal: #1abc9c;
+    --test1: #sded2f;
+  }
+
+
+.nav_color {
+    background-color: #2c3e50;
 }
 
-.left_nav{
-    background-color: blue;
-    justify-content: center;
-}
-
-.right_nav{
-    height: 100%;
-    justify-content: center;
-    color: white;
-    background-color: black;
-}
-
-.nav_height{
-    height: 50px;
+.color {
     background-color: aqua;
 }
 
-.img{
-    justify-content: center;
-    width: 200px;
-    height: 200px;
-    align-items: center;
-    background-color: beige;
-    margin: auto;
-
-    /* FIXME: NON SO PERCHE' MI SI ESTENDE PER TUTTO IL CONTENITORE ANCHE SE HO DATO LARGHEZZA FISSA  */
-
-
-}
-
-.start_boot{
-    background-color: lime;
-    height: 50px;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 700;
-}
-
-.star_box{
-    height: 70px;
+.color2{
     background-color: blueviolet;
-    font-weight: 700;
-    text-transform: uppercase;
-
-    /* FIXME: NON FUNZIONA ALIGN ITEMS CENTER  */
 }
 
-.side_star{
-    background-color: cadetblue;
-    justify-content: center;
+.start_color{
+   background-color: var(--teal);
+    /* background-color: red; */
 }
 
-.star{
-    background-color: chartreuse;
-    justify-content: center;
+.img_size {
+    height: 220px;
 }
-
-
-
-.text_box{
-    min-height: 70px;
-    background-color: crimson;
-    justify-content: center;
-    text-transform: uppercase;
-    font-weight: 700;
-    align-items: center;
-    
-}
-
-.graphic{
-    justify-content: center;
-}
-
-.web_des {
-    justify-content: center;
-}
-
-.ill{
-    justify-content: center;
-}
-
-.portfolio{
-    text-transform: uppercase;
-    font-weight: 700;
-    height: 100px;
-    text-align: center;
-}
-
-.box_img {
- background-color: darkblue;
- height: 400px;
- margin-bottom: 40px;
- 
-}
-
-.about_box{
-    background-color: darksalmon;
-    height: 550px;
-    padding-top: 25px;
-}
-
-.about_text{
-    text-align: center;
-}
-
-.contact_box{
-    background-color: darkmagenta;
-}
-
-.list_box{
-    background-color: darkseagreen;
-    font-weight: 700;
-}
-
-.list_element {
-    padding: 5px;
-    border-bottom: solid olive;
-    border-width: .5px;    
-}
-
-.message_box{
-    background-color: azure;
-   
-}
-
-.shadow_text{
-    border-bottom: solid olive;
-    border-width: .5px;
-    padding-top: 50px;
-    margin-bottom: 20px;
-    font-weight: 700;
-}
-
-.icon{
-    justify-content: flex-end;
-}
-
-.btn{
-    background-color: goldenrod;
-}
-
-.location_box{
-    margin-top: 50px;
-    background-color: darkslategray;
-}
-
-.circle_box {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.f{
-    background-color: aliceblue;
-}
-
-.g{
-    background-color: darkkhaki;
-}
-
-.t{
-    background-color: fuchsia;
-}
-
-.in {
-    background-color: yellow;
-}
-
-.freelance_box{
-    margin-bottom: 50px;
-}
-
