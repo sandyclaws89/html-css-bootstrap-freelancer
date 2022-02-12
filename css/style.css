@@ -5,7 +5,17 @@ body{
 :root {
     --white: #ffffff;
     --teal: #1abc9c;
-    --test1: #sded2f;
+   
+    --color1: #2c3e50;
+    --color2: #3A546D;
+  }
+
+  .pt-7{
+      padding-top: 7rem;
+  }
+
+  .mt-7{
+      margin-top: 7rem;
   }
 
   .flex_row {
@@ -15,8 +25,19 @@ body{
       justify-content: center;
   }
 
-.nav_color {
+  header{
+      position: fixed;
+      z-index: 555;
+  }
+
+.bck_color1 {
     background-color: #2c3e50;
+    width: 100%;
+}
+
+.bck_color2{
+    background-color: var(--color2);
+    width: 100%;
 }
 
 .color {
@@ -27,13 +48,15 @@ body{
     background-color: blueviolet;
 }
 
-.start_color{
+.bck_teal{
    background-color: var(--teal);
 }
 
 .avatar_size {
-    width: 100%;
+    position: relative;
+    width: 250px;
     height: 220px;
+    margin: auto;
 }
 
 .side_star {
@@ -51,3 +74,40 @@ body{
     width: 100%;
     height: 100%;
 }
+
+.bck_teal{
+    background-color: var(--teal);
+}
+
+.about_box{
+    max-width: 90%;
+}
+
+
+.test{
+    background-color: blue;
+}
+
+.test1{
+    background-color: darkgoldenrod;
+}
+
+.test2{
+    background-color: yellow;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border: solid white;
+    border-radius:50%;
+    padding: .5rem;
+    margin:5px;
+    border-width: 1px;
+}
+.bottom_footer{
+    line-height:5rem;
+  
+}
+
+
