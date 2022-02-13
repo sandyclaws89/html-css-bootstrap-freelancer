@@ -1,3 +1,4 @@
+
 body{
     font-family: sans-serif;
 }
@@ -5,12 +6,11 @@ body{
 :root {
     --white: #ffffff;
     --teal: #1abc9c;
-   
     --color1: #2c3e50;
     --color2: #3A546D;
   }
 
-  .pt-7{
+.pt-7{
       padding-top: 7rem;
   }
 
@@ -40,17 +40,10 @@ body{
     width: 100%;
 }
 
-.color {
-    background-color: aqua;
-}
-
-.color2{
-    background-color: blueviolet;
-}
-
-.bck_teal{
+.bck_color3{
    background-color: var(--teal);
 }
+
 
 .avatar_size {
     position: relative;
@@ -60,9 +53,18 @@ body{
 }
 
 .side_star {
-    width: 130px;
+    width: 15%;
+    max-width: 120px;
     height: 5px;
     background-color: white;
+    border-radius: 40px;
+}
+
+.side_star_black {
+    width: 20%;
+    max-width: 120px;
+    height: 5px;
+    background-color: black;
     border-radius: 40px;
 }
 
@@ -83,31 +85,32 @@ body{
     max-width: 90%;
 }
 
-
-.test{
-    background-color: blue;
-}
-
-.test1{
-    background-color: darkgoldenrod;
-}
-
-.test2{
-    background-color: yellow;
-}
-
 .circle{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border: solid white;
     border-radius:50%;
-    padding: .5rem;
+    padding: 1.3rem;
     margin:5px;
     border-width: 1px;
 }
+
 .bottom_footer{
-    line-height:5rem;
-  
+    line-height:5rem;  
 }
+
+.circle_box {
+    max-width: 100%;
+}
+
+.startboot{
+    text-decoration: none;
+    color: var(--teal);
+}
+
+.startboot:hover{
+    color: var(--teal);
+}
+
 
 

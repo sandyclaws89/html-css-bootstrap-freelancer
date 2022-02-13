@@ -12,7 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Blinker:wght@100&family=Dongle:wght@300&family=Open+Sans:wght@300&family=Outfit:wght@200&family=Roboto:ital,wght@1,100&family=Rubik+Mono+One&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 
     <title>Freelance</title>
@@ -24,22 +24,34 @@
 </head>
 
 <body>
+    <!-- HEADER SECTION NAV -->
     <header class="bck_color1">
-
         <nav class="container text-white">
-            <div class="row py-3 text-uppercase fs-3 fw-bold">
-                <div class="col-8 col-lg-6">
+            <div class="row py-3 text-uppercase fs-3 fw-bold align-items-center">
+                <div class="col-8 col-md-5 col-lg-6 px-2">
                     start bootstrap
                 </div>
-                <div class="col-4 col-lg-6 text-end">
-                    ham
+
+                <div class="col-4 col-md 7col-lg-6 text-end fs-1">
+                    <div class="d-md-none px-2">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="d-none d-md-block">
+                        <ul class="list-inline fs-4 mb-0">
+                            <li class="list-inline-item">portfolio</li>
+                            <li class="list-inline-item">about</li>
+                            <li class="list-inline-item">contact</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="bck_teal">
+        <!-- START BOOTSTRAP SECTION  -->
+        <section class="bck_color3">
             <div class="row  pt-7">
                 <div class="col text-center">
                     <div>
@@ -49,9 +61,9 @@
                 <div class="row text-center text-uppercase fw-bolder">
                     <div class="col text-center m-auto">
                         <h1 class="text-white text-center">start bootstrap</h1>
-                        <div class="row mb-2">
-                            <div class="col mb-2">
-                                <div class="flex_row ">
+                        <div class="row mb-2 justify-content-center">
+                            <div class="col mb-2 text-white fs-2">
+                                <div class="flex_row">
                                     <div class="side_star text-white"></div>
                                     <i class="fa-solid fa-star text_color_white"></i>
                                     <div class="side_star text-white"></div>
@@ -69,22 +81,24 @@
             </div>
         </section>
 
+        <!-- CARD SECTION  -->
         <section>
-            <div class="row text-center text-uppercase mt-5 fw-bold fs-4">
+            <div class="row text-center text-uppercase mt-5 fw-bold fs-4 justify-content-center">
                 <div class="col">
                     portfolio
                 </div>
-                <div class="row">
+                <div class="row fs-2">
                     <div class="col text-center mb-2">
-                        <div class="flex_row ">
-                            <div class="side_star"></div>
+                        <div class="flex_row">
+                            <div class="side_star_black"></div>
                             <i class="fa-solid fa-star"></i>
-                            <div class="side_star"></div>
+                            <div class="side_star_black"></div>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <!-- CARD CONTAINER  -->
             <div class="container mb-5">
 
                 <div class="row text-center gy-2">
@@ -116,7 +130,8 @@
             </div>
         </section>
 
-        <section class="bck_teal">
+        <!-- ABOUT SECTION  -->
+        <section class="bck_color3">
             <div class="container text-white">
                 <div class="about_box mx-auto">
                     <div class="row">
@@ -125,7 +140,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col text-black">
+                        <div class="col text-white fs-2">
                             <div class="flex_row">
                                 <div class="side_star"></div>
                                 <i class="fa-solid fa-star"></i>
@@ -133,6 +148,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="row text-white text-center g-4  my-1">
                         <div class="col-8 col-md fw-bold mx-auto">
                             <div class="container py-3">
@@ -148,10 +164,10 @@
                                 the perfect starting point!
                             </div>
                         </div>
-
                     </div>
+
                     <div class="row mt-3 pb-5">
-                        <div class="col-3 col-lg-1 btn btn-outline-light mx-auto">
+                        <div class="col-3 col-lg-3 btn btn-outline-light mx-auto">
                             <div class="btn_width">
                                 Download
                             </div>
@@ -161,18 +177,21 @@
             </div>
         </section>
 
+        <!-- CONTACT SECTION  -->
         <section>
             <div class="container">
                 <div class="row">
                     <div class="col text-center text-uppercase fw-bold fs-3 pt-5">
                         contact me
                     </div>
+
+                    <!-- INPUT -->
                     <div class="row mx-auto text-black">
-                        <div class="col">
+                        <div class="col fs-2">
                             <div class="flex_row">
-                                <div class="side_star"></div>
+                                <div class="side_star_black"></div>
                                 <i class="fa-solid fa-star"></i>
-                                <div class="side_star"></div>
+                                <div class="side_star_black"></div>
                             </div>
                         </div>
                     </div>
@@ -187,7 +206,6 @@
                         </div>
 
                         <div class="col-12">
-
                             <div class="mb-3">
                                 <label for="Name" class="form-label"></label>
                                 <input type="email" class="form-control" id="Name" aria-describedby="Name"
@@ -214,24 +232,23 @@
                     <div class="col pt-3">
                         <button type="button" class="btn btn-primary">Send</button>
                     </div>
-
                 </div>
-
             </div>
-
         </section>
 
     </main>
 
+    <!-- FOOTER SECTION  -->
     <footer class="bck_color2" style="margin-bottom: 100px;">
 
-        <div class="container text-white mt-4">
+        <div class="container text-white mt-5 g-1">
 
-            <div class="row text-center fw-bold pt-4">
+            <div class="row text-center fw-bold pt-4 pt-5 pb-3">
 
+                <!-- LOCATION  -->
                 <div class="col-12 col-md-4 mb-4">
                     <div class="row">
-                        <div class="col-12 text-uppercase">
+                        <div class="col-12 text-uppercase fs-4">
                             location
                         </div>
                         <div class="row">
@@ -240,54 +257,57 @@
                     </div>
                 </div>
 
+                <!-- AROUND THE WEB  -->
                 <div class="col-12 col-md-4 mb-4 text-uppercase">
                     <div class="row text-center mx-auto">
-                        <div class="col-12 mx-auto ">
+                        <div class="col-12 mx-auto fs-4">
                             around the web
                         </div>
                     </div>
 
-                    <div class="row text-center justify-content-center">
+                    <div class="row justify-content-center">
                         <div class="col-12 col-md-6">
+
                             <div class="flex_row circle_box">
-                                <div class="circle align_items">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </div>
-                                <div class="circle align_items">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </div>
-                                <div class="circle align_items">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </div>
-                                <div class="circle align_items">
+                                <div class="circle">
                                     <i class="fa-brands fa-facebook-f"></i>
                                 </div>
 
+                                <div class="circle">
+                                    <i class="fa-brands fa-google"></i>
+                                </div>
+                                <div class="circle">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div class="circle">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <!-- ABOUT FREELANCER  -->
                 <div class="col-12 col-md-4 mb-5">
                     <div class="row text-center">
-                        <div class="col-12 text-uppercase">
+                        <div class="col-12 text-uppercase fs-4">
                             about freelancer
                         </div>
                     </div>
                     <div class="row text-center">
                         <div class="col-12 pt-2">Freelance is a free to use, open source Bootstrap theme
                             created
-                            by<a href="#!">Start Bootstrap</a>
+                            by<a href="#!" class="startboot"> Start Bootstrap</a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
 
+        <!-- COPYRIGHT  -->
         <div class="bck_color1 text-white bottom_footer">
             <div class="row text-center align-items-center">
-                <div class="col justify-content-center">
+                <div class="col justify-content-center py-4">
                     Copyright @ Your Website 2019
                 </div>
             </div>
